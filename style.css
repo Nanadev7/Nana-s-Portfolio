@@ -229,7 +229,7 @@ nav {
 .project-link:hover {
   text-decoration: underline;
 }
-contact-btn {
+.contact-btn {
   display: inline-block;
   padding: 0.75rem 1.4rem;
   border-radius: 6px;
