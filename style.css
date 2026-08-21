@@ -229,6 +229,14 @@ nav {
 .project-link:hover {
   text-decoration: underline;
 }
+.about-info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px 30px;
+  margin-top: 30px;
+  margin-bottom: 35px;
+  
+}
 .contact-btn {
   display: inline-block;
   padding: 0.75rem 1.4rem;
@@ -250,6 +258,37 @@ footer {
   font-size: 0.85rem;
 }
 
+/* Fixed class name from footer-social-ions to social-icons */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+.social-icons a {
+  color: var(--text-muted);
+  font-size: 1.2rem;
+  transition: color 0.2s ease;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: var(--accent-hover);
+}
+
+/* If you want specific custom hover colors for each icon: */
+.social-icons .icon-mail:hover {
+  color: var(--accent-hover);
+}
+
+.social-icons .icon-github:hover {
+  color: var(--accent-color);
+}
+
+.social-icons .icon-instagram:hover {
+  color: var(--accent-hover);
+}
 /* Responsive Adjustments */
 @media (max-width: 600px) {
   .hero h1 {
